@@ -1,0 +1,110 @@
+@charset "utf-8";
+   
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    background-color: rgb(182, 151, 231);
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: row;
+    align-items: center; 
+    margin: 30px;
+   padding-top: 15px;
+    color: rgb(96, 48, 141);
+    font-family: Nunito;
+}
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(96, 48, 141); ;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+main{
+    background-color: pink;
+    padding-bottom: 100px;
+    margin: 80px 80px 80px 80px;
+    border-radius: 40px;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.103);
+    
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+}
+
+img{
+    height: 650px;
+}
+
+.conteudo{
+    padding-left: 50px;
+}
+
+h4{
+    font-weight: 100;
+    color:rgb(125, 78, 168);
+}
+
+h1{
+    font-family: Sigmar ;
+    font-size: 50px;
+    color: rgb(96, 48, 141);
+    height: 25px;
+}
+p{
+    padding-top: 30px;
+    max-width: 400px;
+    color: rgb(125, 78, 168);
+}
+
+.buy{
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color:rgb(96, 48, 141) ;
+}
+
+.buy:hover{
+    background-color: rgb(170, 108, 228);
+    color: black;
+    transition: 0.5s;
+}
+
+.info{
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border-color: rgb(96, 48, 141);
+    background-color: pink;
+    color:rgb(106, 43, 165) ;
+}
+
+.info:hover{
+    background-color:rgb(170, 108, 228);
+    transition: 0.3s;
+    border-radius: white;
+}
+
+
+

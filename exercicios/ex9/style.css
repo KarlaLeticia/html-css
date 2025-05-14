@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    font-family:'Titillium-Web';
+    color: rgb(49, 97, 151);
+    text-align: justify;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(169, 216, 245), rgb(204, 234, 253));
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; 
+    padding-right: 40px;
+}
+h2{
+    padding-left: 40px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+   
+}
+
+a :hover{
+    color: rgb(96, 139, 189);
+    transition: 0.20s all;
+    
+}
+h1{
+    font-size: xx-large;
+}
+main{
+    background-color: rgb(207, 236, 253);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+p{
+    width: 440px;
+    font-size: large;
+    line-height: 25px;
+    margin-right: 70px;
+    ;
+}
+img{
+    width: 550px;
+}
+input{
+    padding: 5px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+
