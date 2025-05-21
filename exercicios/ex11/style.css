@@ -1,0 +1,14 @@
+.fundo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(imgs/pattern003.png);
+}
+
+.fundo02{ 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(imgs/pattern002.png);
+
+}
